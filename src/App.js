@@ -17,7 +17,7 @@ function App() {
       {/* 工作经历 */}
       <div>
         <h4 class="header-title">工作经历</h4>
-        <div>成都聚思力技术股份有限公司 - 前端开发工程师 2018年10月 - 至今</div>
+        <div>成都xxx技术股份有限公司 - 前端开发工程师 2018年10月 - 至今</div>
         <ul>
           <li>业务开发: xxxxxx</li>
           <li>基础建设: xxxxxx</li>
