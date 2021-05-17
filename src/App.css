@@ -1,5 +1,12 @@
+
+#root {
+  display: flex;
+  justify-content: center;
+}
+
 .cv {
   height: 100%;
+  width: 1000px;
 }
 
 .cv .header-title {
