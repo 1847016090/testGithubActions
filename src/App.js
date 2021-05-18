@@ -1,22 +1,49 @@
 import "./App.css";
+import "./Common.css";
 
 function App() {
   return (
     <div className="cv">
       {/* 个人信息 */}
-      <div>
-        <h2>xxxxx</h2>
-        <div>138-8048-0630 | 1847016090@qq.com</div>
+      <div className="info">
+        <div className="avatar _m_r_2">
+          <img src="xx" alt="" />
+        </div>
+        <div className="_w_6 _flex _v _between">
+          <h2>xx</h2>
+          <div className="_flex _between">
+            <div className="_w_2">
+              <div>性　　别：男</div>
+              <div>民　　族：汉</div>
+              <div>学　　历：本科</div>
+              <div>英语等级：CET-4</div>
+              <div>毕业院校：西华大学</div>
+            </div>
+            <div className="_w_3">
+              <div>年　　龄：24</div>
+              <div>专　　业：软件工程</div>
+              <div>联系电话：138-8048-0630</div>
+              <div>现居地址：成都市天府新区万安镇</div>
+              <div>电子邮箱：1847016090@qq.com</div>
+            </div>
+          </div>
+        </div>
       </div>
       {/* 教育经历 */}
       <div>
-        <h4 class="header-title">教育经历</h4>
-        <div>西华大学 | 软件工程专业 2015年9月 - 2019年7月</div>
+        <h3 class="header-title">教育经历</h3>
+        <div className="_flex _between">
+          <div>西华大学 | 软件工程专业</div>
+          <div>2015年9月 - 2019年7月</div>
+        </div>
       </div>
       {/* 工作经历 */}
       <div>
-        <h4 class="header-title">工作经历</h4>
-        <div>成都xxx技术股份有限公司 - 前端开发工程师 2018年10月 - 至今</div>
+        <h3 class="header-title">工作经历</h3>
+        <div className="_flex _between">
+          <div>成都xxx技术股份有限公司 | 前端开发工程师</div>
+          <div>2018年10月 - 至今</div>
+        </div>
         <ul>
           <li>业务开发: xxxxxx</li>
           <li>基础建设: xxxxxx</li>
@@ -25,7 +52,7 @@ function App() {
       </div>
       {/* 项目经历 */}
       <div>
-        <h4 className="header-title">项目经历</h4>
+        <h3 className="header-title">项目经历</h3>
         <div>
           xxxx项目 - xxx开发
           <ul>
