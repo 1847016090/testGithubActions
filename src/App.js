@@ -45,7 +45,7 @@ function App() {
       <div>
         <h3 class="header-title">工作经历</h3>
         <div className="_flex _between">
-          <div>{showInfo("成都聚思力技术股份有限公司")} | 前端开发工程师</div>
+          <div>{showInfo("成都xxx技术股份有限公司")} | 前端开发工程师</div>
           <div>{showInfo('2018年10月 - 至今')}</div>
         </div>
       </div>
