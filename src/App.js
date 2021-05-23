@@ -56,26 +56,37 @@ function App() {
         <h3 className="header-title">项目经历</h3>
         <div>
           <div className="_bold">STELLR 平台</div>
-          <div>STELLR一个是对微软，谷歌, Office365等售卖云服务的B端平台。系统包含:</div>
           <div>
-            用户管理，报表分析，设备管理，消息管理，埋点等。
-            项目采用 Dva(基于React, Redux ， React-Router) 为脚手架，
-            在其基础上集成了 immutable, eslint，react-intl, solv-uicomponent(基于antd封装)，
+            STELLR一个是对微软，谷歌,
+            Office365等售卖云服务的B端平台。系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。
+          </div>
+          <div>
+            项目采用 Dva(基于React，Redux，React-Router) 为脚手架，
+            在其基础上集成了 immutable, eslint，react-intl,
+            solv-uicomponent(基于antd封装)，
             solv-models(管理业务逻辑),solv-common(提供基础方法)
           </div>
           <div className="_bold">个人职责</div>
           <ul>
-            <li>负责用户管理，设备管理的页面开发以及迭代</li>
+            <li>负责用户管理，设备管理的页面开发以及迭代以及页面埋点</li>
             <li>讨论组件使用标准，完善组件库，以及根据标准编写组件示例</li>
             <li>开发Vendor静态页面</li>
             <li>快速编写业务deme演示给客户</li>
           </ul>
           <div className="_bold">项目难点</div>
           <ul>
-            <li>使用Vue + Koa + MogonDB 完成翻译小工具，解决项目的翻译难题。</li>
-            <li>xxxxxxx</li>
-            <li>xxxxxxx</li>
-            <li>xxxxxxx</li>
+            <li>
+              使用虚拟列表解决长列表性能问题
+            </li>
+            <li>
+              使用Vue + Koa 完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题并且获得同事好评。
+            </li>
+            <li>
+              整理Solv-Ui 组件使用用例代码块并分享给同事,提高开发效率
+            </li>
+            <li>
+              手写简单Cli工具，快捷下载使用模版
+            </li>
           </ul>
         </div>
       </div>
@@ -85,17 +96,16 @@ function App() {
         <ul>
           <li>熟悉HTML、CSS、JavaScript，ES6等前端技术</li>
           <li>
-            熟悉React框架以及实现原理，了解Vue框架；熟悉 AntD，Elemenet-ui
+            熟悉React框架以及实现原理，了解Vue框架；熟悉 AntD，Element-ui
             等常用UI库的使用
           </li>
           <li>熟悉Redux，React-Reudx，React-Router全家桶以及实现原理</li>
           <li>熟悉git版本控制工具、npm包管理器</li>
           <li>
-            熟悉Webpack，Esbuild，Vite，Gulp，Eslint，Prettier等工程化构建工具
+            熟悉Webpack，Eslint，Prettier等工程化构建工具
           </li>
           <li>熟悉Dva, 了解 Tarojs 等等脚手架</li>
           <li>了解Express， Koa框架，能使用其实现简单的服务器</li>
-          <li>了解微信小程序开发</li>
           <li>熟练阅读和查阅计算机相关英文文档，并且有良好的编程习惯。</li>
         </ul>
       </div>
