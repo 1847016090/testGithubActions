@@ -36,3 +36,6 @@
 .header-title {
   border-bottom: 2px solid gray;
 }
+.cv ul {
+  margin: 0;
+}

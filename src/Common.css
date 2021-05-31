@@ -12,6 +12,9 @@
   margin-left: 24px !important;
 }
 
+._m_t_half {
+  margin-top: 6px;
+}
 ._m_t_1 {
   margin-top: 12px !important;
 }
@@ -19,6 +22,9 @@
   margin-top: 24px !important;
 }
 
+._m_b_half {
+  margin-bottom: 6px;
+}
 ._m_b_1 {
   margin-bottom: 12px !important;
 }
