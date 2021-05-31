@@ -16,7 +16,7 @@ function App() {
           <img src={avatartImg} alt="" />
         </div>
         <div className="_w_6 _flex _v _between">
-          <h2>{showInfo("叶康 | 在职")}</h2>
+          <h2>{showInfo("叶康 | 在职 | 求职意向(前端开发工程师)")}</h2>
           <div className="_flex _between">
             <div className="_w_2">
               <div>性　　别：男</div>
