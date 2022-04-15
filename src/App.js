@@ -26,7 +26,7 @@ function App() {
               <div>毕业院校：{showInfo("西华大学")}</div>
             </div>
             <div className="_w_3">
-              <div>年　　龄：24</div>
+              <div>年　　龄：25</div>
               <div>专　　业：软件工程</div>
               <div>联系电话：{showInfo("138-8048-0630")}</div>
               <div>现居地址：{showInfo("成都市天府新区万安镇")}</div>
@@ -46,9 +46,13 @@ function App() {
       {/* 工作经历 */}
       <div>
         <h3 class="header-title">工作经历</h3>
-        <div className="_flex _between">
+        <div className="_flex _between _m_t_1">
           <div>{showInfo("成都聚思力技术股份有限公司")} | 前端开发工程师</div>
-          <div>{showInfo("2018年10月 - 至今")}</div>
+          <div>{showInfo("2018年10月 - 2021年10月")}</div>
+        </div>
+        <div className="_flex _between _m_t_1">
+          <div>{showInfo("成都鱼泡网科技有限公司")} | 前端开发工程师</div>
+          <div>{showInfo("2021年10月 - 至今")}</div>
         </div>
       </div>
       {/* 专业技能 */}
@@ -56,9 +60,7 @@ function App() {
         <h3 className="header-title">专业技能</h3>
         <ul>
           <li>熟悉HTML、CSS、JavaScript，ES6等前端技术</li>
-          <li>
-            熟悉React框架以及实现原理，熟悉常用UI库AntD的使用
-          </li>
+          <li>熟悉React框架以及实现原理，熟悉常用UI库AntD的使用</li>
           <li>熟悉Redux，React-Reudx，React-Router的使用以及实现原理</li>
           <li>熟悉git版本控制工具、npm包管理器</li>
           <li>熟悉Webpack，Eslint，Prettier等工程化构建工具</li>
@@ -71,13 +73,12 @@ function App() {
       <div>
         <h3 className="header-title">项目经历</h3>
         <div>
-          <div className="_bold">STELLR 平台</div>
-          <div>STELLR一个是为微软，谷歌， Office365等供应商售卖云服务的B端平台。</div>
+          <div className="_bold">鱼泡网小程序</div>
+          <div>鱼泡网似是一个为蓝领提供找工作的平台。</div>
           <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div>
           <div>
-            项目采用React，Redux，Dva，Immutable等，
-            在其基础上集成了 eslint，react-intl，以及
-            solv-uicomponent(基于antd二次封装)，
+            项目采用React，Redux，Dva，Immutable等， 在其基础上集成了
+            eslint，react-intl，以及 solv-uicomponent(基于antd二次封装)，
             solv-models(管理业务逻辑),solv-common(提供基础方法)
           </div>
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
@@ -94,7 +95,37 @@ function App() {
               完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题并且获得同事好评。
             </li>
             <li>滚动加载中使用虚拟列表解决长列表性能问题</li>
-            <li>实现前端过滤Tree Tableble共用方法</li>
+            <li>实现前端过滤Tree Table共用方法</li>
+            <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
+            <li>手写简单Cli工具，快捷下载使用模版</li>
+          </ul>
+        </div>
+        <div>
+          <div className="_bold">STELLR 平台</div>
+          <div>
+            STELLR一个是为微软，谷歌， Office365等供应商售卖云服务的B端平台。
+          </div>
+          <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div>
+          <div>
+            项目采用React，Redux，Dva，Immutable等， 在其基础上集成了
+            eslint，react-intl，以及 solv-uicomponent(基于antd二次封装)，
+            solv-models(管理业务逻辑),solv-common(提供基础方法)
+          </div>
+          <div className="_bold _m_t_half _m_b_half">个人职责</div>
+          <ul>
+            <li>负责用户管理，设备管理的页面开发以及迭代，页面埋点</li>
+            <li>讨论组件使用标准，完善组件库，以及根据标准编写组件示例</li>
+            <li>开发Vendor静态页面</li>
+            <li>快速编写业务demo演示给客户</li>
+          </ul>
+          <div className="_bold _m_t_half _m_b_half">项目难点</div>
+          <ul>
+            <li>
+              使用Vue + Koa
+              完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题并且获得同事好评。
+            </li>
+            <li>滚动加载中使用虚拟列表解决长列表性能问题</li>
+            <li>实现前端过滤Tree Table共用方法</li>
             <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
             <li>手写简单Cli工具，快捷下载使用模版</li>
           </ul>
