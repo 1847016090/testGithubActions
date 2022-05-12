@@ -48,11 +48,11 @@ function App() {
         <h3 class="header-title">工作经历</h3>
         <div className="_flex _between _m_t_1">
           <div>{showInfo("成都聚思力技术股份有限公司")} | 前端开发工程师</div>
-          <div>{showInfo("2018年10月 - 2021年10月")}</div>
+          <div>{showInfo("2018年10月 - 2021年9月")}</div>
         </div>
         <div className="_flex _between _m_t_1">
           <div>{showInfo("成都鱼泡网科技有限公司")} | 前端开发工程师</div>
-          <div>{showInfo("2021年10月 - 至今")}</div>
+          <div>{showInfo("2021年9月 - 至今")}</div>
         </div>
       </div>
       {/* 专业技能 */}
@@ -71,51 +71,37 @@ function App() {
       </div>
       {/* 项目经历 */}
       <div>
-        <h3 className="header-title">项目经历</h3>
+        <h3 className="header-title">工作经历</h3>
         <div>
-          <div className="_bold">鱼泡网小程序</div>
-          <div>鱼泡网似是一个为蓝领提供找工作的平台。</div>
-          <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div>
-          <div>
-            项目采用React，Redux，Dva，Immutable等， 在其基础上集成了
-            eslint，react-intl，以及 solv-uicomponent(基于antd二次封装)，
-            solv-models(管理业务逻辑),solv-common(提供基础方法)
-          </div>
+          <div className="_bold _m_b_1">2021年9月 - 至今：鱼泡网小程序重构</div>
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
-          <ul>
-            <li>负责用户管理，设备管理的页面开发以及迭代，页面埋点</li>
-            <li>讨论组件使用标准，完善组件库，以及根据标准编写组件示例</li>
-            <li>开发Vendor静态页面</li>
-            <li>快速编写业务demo演示给客户</li>
-          </ul>
-          <div className="_bold _m_t_half _m_b_half">项目难点</div>
-          <ul>
-            <li>
-              使用Vue + Koa
-              完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题并且获得同事好评。
-            </li>
-            <li>滚动加载中使用虚拟列表解决长列表性能问题</li>
-            <li>实现前端过滤Tree Table共用方法</li>
-            <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
-            <li>手写简单Cli工具，快捷下载使用模版</li>
+          <ul className="_m_b_2">
+            <li>日常迭代开发</li>
+            <li>推动代码编写规范，代码提交规范</li>
+            <li>推动前后数据结构对接规范</li>
+            <li>集成mock数据 Rap到项目中</li>
+            <li>封装工种，城市组件，图片组件</li>
+            <li>封装History，useStates，ypStorage等工具方法</li>
+            <li>优化页面性能</li>
           </ul>
         </div>
         <div>
-          <div className="_bold">STELLR 平台</div>
+          <div className="_bold _m_b_1">
+            2018年10月 - 2021年9月：STELLR 平台
+          </div>
           <div>
             STELLR一个是为微软，谷歌， Office365等供应商售卖云服务的B端平台。
           </div>
-          <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div>
-          <div>
+          {/* <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div> */}
+          {/* <div>
             项目采用React，Redux，Dva，Immutable等， 在其基础上集成了
             eslint，react-intl，以及 solv-uicomponent(基于antd二次封装)，
             solv-models(管理业务逻辑),solv-common(提供基础方法)
-          </div>
+          </div> */}
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
           <ul>
             <li>负责用户管理，设备管理的页面开发以及迭代，页面埋点</li>
             <li>讨论组件使用标准，完善组件库，以及根据标准编写组件示例</li>
-            <li>开发Vendor静态页面</li>
             <li>快速编写业务demo演示给客户</li>
           </ul>
           <div className="_bold _m_t_half _m_b_half">项目难点</div>
@@ -125,7 +111,6 @@ function App() {
               完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题并且获得同事好评。
             </li>
             <li>滚动加载中使用虚拟列表解决长列表性能问题</li>
-            <li>实现前端过滤Tree Table共用方法</li>
             <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
             <li>手写简单Cli工具，快捷下载使用模版</li>
           </ul>
