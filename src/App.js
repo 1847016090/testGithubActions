@@ -100,6 +100,7 @@ function App() {
               日常分享：
               <a
                 target="_blank"
+                rel="noreferrer"
                 href="https://metaverseppt-1257212764.cos-website.ap-chengdu.myqcloud.com/#slide=1"
               >
                 元宇宙
