@@ -28,7 +28,7 @@ function App() {
             <div className="_w_3">
               <div>年　　龄：25</div>
               <div>专　　业：软件工程</div>
-              <div>联系电话：{showInfo("138-8048-0630")}</div>
+              <div>联系电话：{showInfo("188-4834-3760")}</div>
               <div>现居地址：{showInfo("成都市天府新区万安镇")}</div>
               <div>电子邮箱：{showInfo("1847016090@qq.com")}</div>
             </div>
@@ -59,12 +59,12 @@ function App() {
       <div>
         <h3 className="header-title">专业技能</h3>
         <ul>
-          <li>熟悉HTML、CSS、JavaScript，ES6等前端技术</li>
+          <li>熟悉HTML、CSS、JavaScript、ES6、Typescript等前端技术</li>
           <li>熟悉React框架以及实现原理，熟悉常用UI库AntD的使用</li>
           <li>熟悉Redux，React-Reudx，React-Router的使用以及实现原理</li>
+          <li>熟悉前端工程化和性能优化，能使用Webpack从零到一搭建前端项目</li>
           <li>熟悉git版本控制工具、npm包管理器</li>
-          <li>熟悉Webpack，Eslint，Prettier等工程化构建工具</li>
-          <li>熟悉Dva, 了解 Tarojs 等脚手架</li>
+          <li>熟悉Tarojs跨端框架</li>
           <li>了解Express， Koa框架，能使用其实现简单的服务器</li>
           <li>熟练阅读和查阅计算机相关英文文档，并且有良好的编程习惯。</li>
         </ul>
@@ -74,37 +74,65 @@ function App() {
         <h3 className="header-title">工作经历</h3>
         <div>
           <div className="_bold _m_b_1">2021年9月 - 至今：鱼泡网小程序重构</div>
+          <div>鱼泡网小程序是一个为全国工友提供找活的一个平台</div>
+          <div>项目技术：Taro + icestore + Typescript</div>
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
           <ul className="_m_b_2">
-            <li>日常迭代开发</li>
-            <li>推动代码编写规范，代码提交规范</li>
-            <li>推动前后数据结构对接规范</li>
-            <li>集成mock数据 Rap到项目中</li>
-            <li>封装工种，城市组件，图片组件</li>
-            <li>封装History，useStates，ypStorage等工具方法</li>
-            <li>优化页面性能</li>
+            <li>
+              日常迭代开发：企业认证接入，第三方E证通人脸识别接入，发布招工地址优化，找活名片优化等
+            </li>
+            <li>
+              推动并且集成Eslint，Prettier,
+              Husky等，统一代码编写规范，代码提交规范
+            </li>
+            <li>
+              优化页面性能，让小程序页面在低端机上面的显示速度提升一倍以上
+            </li>
+            <li>重构工种组件，城市组件，封装图片组件，相机组件等公用组件</li>
+            <li>
+              封装History，useStates，ypStorage等工具方法极大的提升了团队的开发效率
+            </li>
+            <li>
+              推动前后数据结构对接规范；集成mock数据
+              Rap到项目中，提高前后端协作效
+            </li>
+            <li>
+              日常分享：
+              <a
+                target="_blank"
+                href="https://metaverseppt-1257212764.cos-website.ap-chengdu.myqcloud.com/#slide=1"
+              >
+                元宇宙
+              </a>
+            </li>
           </ul>
         </div>
         <div>
           <div className="_bold _m_b_1">
-            2018年10月 - 2021年9月：STELLR 平台
+            2018年10月 - 2021年9月：STELLR 云平台
           </div>
           <div>
             STELLR一个是为微软，谷歌， Office365等供应商售卖云服务的B端平台。
           </div>
           {/* <div>系统包含：用户管理，报表分析，设备管理，消息管理，埋点等。</div> */}
-          {/* <div>
-            项目采用React，Redux，Dva，Immutable等， 在其基础上集成了
-            eslint，react-intl，以及 solv-uicomponent(基于antd二次封装)，
-            solv-models(管理业务逻辑),solv-common(提供基础方法)
-          </div> */}
-          <div className="_bold _m_t_half _m_b_half">个人职责</div>
+          <div>项目技术：React + Redux + Dva，在其基础上集成了react-intl</div>
+          <div className="_bold _m_t_half _m_b_half">
+            {"个人职责 & 解决问题"}
+          </div>
           <ul>
-            <li>负责用户管理，设备管理的页面开发以及迭代，页面埋点</li>
+            <li>
+              日常迭代开发：用户管理后台，设备管理后台，用户协作平台等页面开发以及迭代
+            </li>
             <li>讨论组件使用标准，完善组件库，以及根据标准编写组件示例</li>
-            <li>快速编写业务demo演示给客户</li>
+            {/* <li>讨论组件使用标准，完善组件库，主导Storybook搭建展示用例并且据标准编写组件示例</li> */}
+            <li>
+              工作之余完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题大大同事的工作效率。
+            </li>
+            <li>滚动加载中研究并使用虚拟列表极大的提高了长列表滚动的性能</li>
+            <li>手写Cli工具，提供快捷下载不同项目模版代码</li>
+            <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
           </ul>
-          <div className="_bold _m_t_half _m_b_half">项目难点</div>
+          {/* <div className="_bold _m_t_half _m_b_half">项目难点</div>
           <ul>
             <li>
               使用Vue + Koa
@@ -113,7 +141,7 @@ function App() {
             <li>滚动加载中使用虚拟列表解决长列表性能问题</li>
             <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
             <li>手写简单Cli工具，快捷下载使用模版</li>
-          </ul>
+          </ul> */}
         </div>
       </div>
       {/* 自我评价 */}
