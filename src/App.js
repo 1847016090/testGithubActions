@@ -65,7 +65,6 @@ function App() {
           <li>熟悉前端工程化和性能优化，能使用Webpack从零到一搭建前端项目</li>
           <li>熟悉git版本控制工具、npm包管理器</li>
           <li>熟悉Tarojs跨端框架</li>
-          <li>了解Express， Koa框架，能使用其实现简单的服务器</li>
           <li>熟练阅读和查阅计算机相关英文文档，并且有良好的编程习惯。</li>
         </ul>
       </div>
@@ -79,7 +78,7 @@ function App() {
           <div>
             鱼泡网是一个建筑工程招工找活平台，4000万的注册工友，每天实时发布附近工地真实有效的工程招聘信息，方便建筑工人找老板、找项目、找工作。
           </div>
-          <div>项目技术：Taro + Typescript + icestore</div>
+          <div>项目技术：Taro + Typescript + Scss + icestore</div>
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
           <ul className="_m_b_2">
             <li>
@@ -89,8 +88,12 @@ function App() {
               优化招工，找活页面性能，降低进入页面的白屏时间，让小程序页面在低端机上面的显示速度提升一倍以上
             </li>
             <li>重构工种组件，城市组件，封装图片组件，相机组件等公用组件</li>
-            <li>
+            {/* <li>
               推动框架从Taro2.0升级到3.0，并集成Eslint，Prettier，
+              Husky等，统一代码编写规范，代码提交规范
+            </li> */}
+            <li>
+              推动项目框架优化并集成Eslint，Prettier，
               Husky等，统一代码编写规范，代码提交规范
             </li>
             <li>
@@ -123,9 +126,7 @@ function App() {
             是面向欧洲，美洲地区的B端云产品销售平台，合作方包括苹果，谷歌，微软等300+供应商，和20000+下游公司，是公司营收的三大马车之一。
           </div>
           <div>项目技术：React + Redux + Dva，在其基础上集成了react-intl</div>
-          <div className="_bold _m_t_half _m_b_half">
-            {"个人职责 & 解决问题"}
-          </div>
+          <div className="_bold _m_t_half _m_b_half">{"个人职责"}</div>
           <ul>
             <li>
               担任生产线核心开发，负责用户管理后台，设备管理后台，用户协作平台等页面开发以及迭代
@@ -135,7 +136,7 @@ function App() {
             <li>
               工作之余完成定制化翻译工具，解决项目在上线前需要手动翻译上百条数据的问题大大提高同事的工作效率。
             </li>
-            <li>滚动加载研究并使用虚拟列表极大的提高了长列表滚动的性能</li>
+            <li>滚动加载使用虚拟列表极大的提高了长列表滚动的性能</li>
             <li>手写Cli工具，提供快捷下载不同项目模版代码</li>
             <li>整理Solv-Ui 组件使用用例代码块并分享给同事，提高开发效率</li>
           </ul>
