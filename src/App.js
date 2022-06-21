@@ -16,7 +16,7 @@ function App() {
           <img src={avatartImg} alt="" />
         </div>
         <div className="_w_6 _flex _v _between">
-          <h2>{showInfo("叶康 | 已提离职 | 求职意向(前端开发工程师)")}</h2>
+          <h2>{showInfo("叶康 | 求职意向(前端开发工程师)")}</h2>
           <div className="_flex _between">
             <div className="_w_2">
               <div>性　　别：男</div>
@@ -60,11 +60,12 @@ function App() {
         <h3 className="header-title">专业技能</h3>
         <ul>
           <li>熟悉HTML、CSS、JavaScript、ES6、Typescript等前端技术</li>
-          <li>熟悉React框架以及实现原理，熟悉常用UI库AntD的使用</li>
-          <li>熟悉Redux，React-Reudx，React-Router的使用以及实现原理</li>
+          <li>熟悉React框架，以及周边生态Redux，React-Redux，React-Router</li>
+          <li>熟悉常用UI库AntD的使用</li>
           <li>熟悉前端工程化和性能优化，能使用Webpack从零到一搭建前端项目</li>
           <li>熟悉git版本控制工具、npm包管理器</li>
           <li>熟悉Tarojs跨端框架</li>
+          <li>熟悉常用的设计模式，数据结构以及算法</li>
           <li>熟练阅读和查阅计算机相关英文文档，并且有良好的编程习惯。</li>
         </ul>
       </div>
