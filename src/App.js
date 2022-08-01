@@ -38,9 +38,12 @@ function App() {
       {/* 教育经历 */}
       <div>
         <h3 class="header-title">教育经历</h3>
-        <div className="_flex _between">
+        <div className="_flex _between" style={{ marginBottom: 8 }}>
           <div>{showInfo("西华大学")} | 计算机学院软件工程专业</div>
           <div>2015年9月 - 2019年7月</div>
+        </div>
+        <div className="_flex _between">
+          <div>荣誉/奖项：国家奖学金，院/校级三好学生</div>
         </div>
       </div>
       {/* 工作经历 */}
@@ -52,34 +55,42 @@ function App() {
         </div>
         <div className="_flex _between _m_t_1">
           <div>{showInfo("成都鱼泡网科技有限公司")} | 前端开发工程师</div>
-          <div>{showInfo("2021年10月 - 至今")}</div>
+          <div>{showInfo("2021年10月 - 2022年05月")}</div>
         </div>
       </div>
       {/* 专业技能 */}
       <div>
         <h3 className="header-title">专业技能</h3>
-        <ul>
+        <ul class="profession">
           <li>熟悉HTML、CSS、JavaScript、ES6、Typescript等前端技术</li>
-          <li>熟悉React框架，以及周边生态Redux，React-Redux，React-Router</li>
-          <li>熟悉常用UI库AntD的使用</li>
-          <li>熟悉前端工程化和性能优化，能使用Webpack从零到一搭建前端项目</li>
+          <li>熟悉React框架，以及相关技术Redux，React-Redux</li>
+          {/* <li>熟悉组件化、工程化，有公共组件（发布到npm）开发经验</li> */}
+          <li>
+            熟悉umi框架，Tarojs跨端框架，微前端框架qiankun，有一定的微前端开发经验
+          </li>
+          <li>
+            熟悉Ant DesignUI库，Ant Design
+            Pro中台框架以及AntV等数据可视化解决方案
+          </li>
+          <li>
+            熟悉前端工程化和性能优化，熟悉构建工具Webpack，并能从零到一搭建前端项目以及部署到服务端
+          </li>
           <li>熟悉git版本控制工具、npm包管理器</li>
-          <li>熟悉Tarojs跨端框架</li>
-          <li>熟悉常用的设计模式，数据结构以及算法</li>
-          <li>熟练阅读和查阅计算机相关英文文档，并且有良好的编程习惯。</li>
+          <li>了解常用的设计模式，数据结构</li>
+          <li>了解nodejs，了解nginx等web服务配置，了解linux命令</li>
         </ul>
       </div>
       {/* 项目经历 */}
       <div>
         <h3 className="header-title">项目经历</h3>
         <div>
-          <div className="_bold _m_b_1">
-            2021年10月 - 至今：鱼泡网小程序重构
-          </div>
+          <div className="_bold _m_b_1">2021年10月 - 5月：鱼泡网小程序</div>
           <div>
             鱼泡网是一个建筑工程招工找活平台，4000万的注册工友，每天实时发布附近工地真实有效的工程招聘信息，方便建筑工人找老板、找项目、找工作。
           </div>
-          <div>项目技术：Taro + Typescript + Scss + icestore</div>
+          <div>
+            <strong>项目技术</strong>：Taro + Typescript + Scss + icestore
+          </div>
           <div className="_bold _m_t_half _m_b_half">个人职责</div>
           <ul className="_m_b_2">
             <li>
@@ -144,7 +155,7 @@ function App() {
         </div>
       </div>
       {/* 自我评价 */}
-      <div>
+      {/* <div>
         <h3 className="header-title">自我评价</h3>
         <ul>
           <li>做事认真仔细，善于沟通以及提出问题。</li>
@@ -152,7 +163,7 @@ function App() {
           <li>工作积极，能够独立工作，又有团队精神</li>
           <li>热爱运动，喜欢篮球，唱歌，健身</li>
         </ul>
-      </div>
+      </div> */}
     </div>
   );
 }
