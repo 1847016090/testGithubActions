@@ -155,7 +155,7 @@ function App() {
         </div>
       </div>
       {/* 自我评价 */}
-      {/* <div>
+      <div>
         <h3 className="header-title">自我评价</h3>
         <ul>
           <li>做事认真仔细，善于沟通以及提出问题。</li>
@@ -163,7 +163,7 @@ function App() {
           <li>工作积极，能够独立工作，又有团队精神</li>
           <li>热爱运动，喜欢篮球，唱歌，健身</li>
         </ul>
-      </div> */}
+      </div>
     </div>
   );
 }
